@@ -1,0 +1,41 @@
+main {
+    margin: 20px;
+  }
+  
+  .banner {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .filmes-em-destaque {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .texto {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  
+  nav ul {
+    list-style-type: none;
+    margin: -5px;
+    padding: 20px;
+    background-color: #333;
+
+  }
+  
+  nav ul li {
+    display:block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+
+  

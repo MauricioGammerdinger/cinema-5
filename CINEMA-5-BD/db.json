@@ -1,0 +1,100 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "titulo": "Terror"
+        },
+        {
+            "id": 2,
+            "titulo": "Comédia"
+        },
+        {
+            "id": 3,
+            "titulo": "Ação"
+        }
+    ],
+    "filmes": [
+        {
+            "id": 1,
+            "descricao": "Pânico 5",
+            "duracao": "Duração: 1h 55m",
+            "ano": "2023",
+            "indicacao": "18 anos",
+            "imagePath": "/assets/img/terror/panico-5.png",
+            "categoriaId": 1
+        },
+        {
+            "id": 2,
+            "descricao": "Megan",
+            "duracao": "Duração: 2h 20m",
+            "ano": "2023",
+            "indicacao": "18 anos",
+            "imagePath": "/assets/img/terror/M3GAN.png",
+            "categoriaId": 1
+        },
+        {
+            "id": 3,
+            "descricao": "amorte.png",
+            "duracao": "Duração: 1h 35m",
+            "ano": "2023",
+            "indicacao": "16 anos",
+            "imagePath": "/assets/img/terror/amorte.png",
+            "categoriaId": 1
+        },
+        {
+            "id": 4,
+            "descricao": "Gato de botas 2",
+            "duracao": "Duração: 1h 30m",
+            "ano": "2023",
+            "indicacao": "14 anos",
+            "imagePath": "/assets/img/comedia/gatodebotas.png",
+            "categoriaId": 2
+        },
+        {
+            "id": 5,
+            "descricao": "Mario",
+            "duracao": "Duração: 1h 20m",
+            "ano": "2023",
+            "indicacao": "10 anos",
+            "imagePath": "/assets/img/comedia/mario.PNG",
+            "categoriaId": 2
+        },
+        {
+            "id": 6,
+            "descricao": "Sing 2",
+            "duracao": "Duração: 2h 14m",
+            "ano": "2020",
+            "indicacao": "10 anos",
+            "imagePath": "/assets/img/comedia/sing.png",
+            "categoriaId": 2
+        },
+        {
+            "id": 7,
+            "descricao": "John Wickr 4",
+            "duracao": "Duração: 2h 43m",
+            "ano": "2021",
+            "indicacao": "16 anos",
+            "imagePath": "/assets/img/acao/jw.jpg",
+            "categoriaId": 3
+        },
+        {
+            "id": 8,
+            "descricao": "Caras Malvados",
+            "duracao": "Duração: 2h 00m",
+            "ano": "2021",
+            "indicacao": "10 anos",
+            "imagePath": "/assets/img/acao/carasmalvados.png",
+            "categoriaId": 3
+        },
+        {
+            "id": 9,
+            "descricao": "O Demonio dos mares",
+            "duracao": "Duração: 1h 42m",
+            "ano": "2012",
+            "indicacao": "14 anos",
+            "imagePath": "/assets/img/acao/tubarão.png",
+            "categoriaId": 3
+        }
+        
+    ]
+}

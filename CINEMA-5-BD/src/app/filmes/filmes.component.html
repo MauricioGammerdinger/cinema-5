@@ -1,0 +1,15 @@
+<!-- Conteúdo -->
+
+    <h1 class="banner">Nossos Filmes</h1>
+
+        <div class="filmes-em-destaque">
+            <div *ngFor="let filme of filmes">
+                <div class="filmes em destaque">
+                    <cin-filme [filme]="filme"></cin-filme>
+                </div>
+            </div>
+            <div *ngIf="filmes.length == 0">
+                <h3 style="color: red">Não existem filmes nessa categoria!</h3>
+            </div>
+        </div>
+

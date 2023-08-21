@@ -1,0 +1,16 @@
+<div class="card mb-4 shadow-sm">
+    <div class="card-header">
+        <h4 class="filmes-em-destaque"></h4>
+    </div>
+    <div class="categorias">
+        <img class="cartegoria" width="100px">
+        <nav>
+            <ul>
+           
+              <li> <a [routerLink]="['/filmes', categoria.id]" style="text-decoration: none;"> {{categoria.titulo}} </a></li>
+        
+            </ul>
+          </nav>
+       
+    </div>
+</div>

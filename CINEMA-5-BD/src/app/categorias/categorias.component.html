@@ -1,0 +1,32 @@
+    <!-- Conteúdo -->
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="categorias">Nossas categorias para você!</h1>
+  </div>
+
+  <main role="main" class="flex-shrink-0">
+    <div class="texto">
+      <div class="filmes-em-destaque">
+        <cin-categoria *ngFor="let c of categorias" [categoria]="c" style="width: 25%"></cin-categoria>
+      </div>
+    </div>
+         
+         <section class="filmes-em-destaque">
+           <div class="filme">
+             <img src="assets/img/avatar.jpg" alt="Filme 1">
+             <h3> Avatar </h3>
+             <p>3h 12m</p>
+           </div>
+           <div class="filme">
+             <img src="assets/img/homemaranha.jpg" alt="Filme 2">
+             <h3> Homem-Aranha</h3>
+             <p>2h 1m</p>
+           </div>
+           <div class="filme">
+             <img src="assets/img/barbie.jpg" alt="Filme 2">
+             <h3> Barbie</h3>
+             <p>1h 30m</p>
+           </div>
+         </section>
+      
+     
+  </main>

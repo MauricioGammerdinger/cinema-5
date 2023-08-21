@@ -1,0 +1,52 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+}
+.categorias {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 40px;
+
+}
+
+.banner {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.texto{
+  text-align: center;
+  text-decoration: none;
+  margin-right: 600px;
+  margin-left: 600px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+main {
+  margin: 20px;
+}
+
+.filmes-em-destaque {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.filme {
+  text-align: center;
+  width: 45%;
+  margin-bottom: 70px;
+
+}
+
+.filme img{
+  margin-right: 100px;
+  width: 300px;
+  height: 480px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
